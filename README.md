@@ -1,6 +1,6 @@
-# Moved: HV Vault Tests
+# Moved: HV Test
 
-This repo only keeps old links working. HV Vault Tests now live at:
+This repo only keeps old links working. HV Test now lives at:
 
 - All tests: https://harshvittori.github.io/hv-tests/
 - HV Personal Growth Test: https://harshvittori.github.io/hv-tests/tests/personal-growth/
