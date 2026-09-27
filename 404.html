@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HV Vault Tests</title>
+<meta name="robots" content="noindex">
+<script>
+  // Old links: /maturity-assessment/ goes to the Personal Growth Test, deeper paths map onto /hv-tests/
+  (function () {
+    var rest = location.pathname.replace(/^\/maturity-assessment\/?/, "");
+    var target = "/hv-tests/" + (rest ? rest : "tests/personal-growth/");
+    location.replace(target + location.search + location.hash);
+  })();
+</script>
+<meta http-equiv="refresh" content="0; url=/hv-tests/tests/personal-growth/">
+<style>
+  body { margin: 0; background: #F3F1EA; color: #23241F; font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  @media (prefers-color-scheme: dark) { body { background: #191A16; color: #EAE8DE; } a { color: #8FB89E; } }
+  main { max-width: 640px; margin: 0 auto; padding: 48px 16px; }
+  a { color: #3F5B4E; }
+</style>
+</head>
+<body>
+<main>
+  <p>HV Vault Tests have moved. <a href="/hv-tests/tests/personal-growth/">Open the HV Personal Growth Test</a> or <a href="/hv-tests/">see all tests</a>.</p>
+</main>
+</body>
+</html>
